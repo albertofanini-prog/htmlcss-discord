@@ -5,11 +5,136 @@
     box-sizing: border-box;
 }
 
+html{
+    font-family: 'Raleway', sans-serif;
+}
+
 img{
     width: 100%;
 }
 
-/*Debug*/
+header{
+    width: 100%;
+    height: 80vh;
+    background-image: url("img/jumbo.png");
+    background-size: cover;
+    position: relative;
+}
+
+.header-top{
+    width: 100%;
+    height: 15%;
+    margin-top: 15px;
+}
+
+#logo{
+    width: 24.5%;
+    height: 50px;
+    float: left;
+    margin-top: 5px;
+}
+
+#logo img{
+    width: 100%;
+    height: 100%;
+}
+
+#nav-bar{
+    width: 50%;
+    height: 50px;
+    float: left;
+    margin-top: 5px;
+    text-align: center;
+}
+
+ul{
+    padding: 5px;
+}
+
+li{
+    display: inline-block;
+    padding: 5px;
+    margin-right: 8px;
+    margin-left: 8px;
+    font-size: small;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+#login{
+    width: 25%;
+    height: 50px;
+    float: left;
+    margin-top: 5px;
+    text-align: right;
+    padding: 10px;
+}
+
+#login a{
+    color: black;
+    background-color: white;
+    padding: 5px;
+    border-radius: 20px;
+    font-size: small;
+}
+
+.header-bottom{
+    margin: 0 auto;
+    height: 75%;
+    position: relative;
+}
+
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+#h1{
+    width: 100%;
+    text-align: center;
+    color: white;
+    padding: 5px;
+    padding-bottom: 30px;
+}
+
+#p{
+    width: 100%;
+    text-align: center;
+    color: white;
+    padding: 5px;
+}
+
+#a{
+    width: 100%;
+    height: 75px;
+    font-size: 13px;
+}
+
+#mac{
+    float: left;
+    margin-top: 15px;
+    margin-left: 100px;
+    color: black;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#brows{
+    float: right;
+    margin-top: 15px;
+    margin-right: 100px;
+    background-color: black;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/*Debug
 header{
     width: 100%;
     height: 80vh;
@@ -56,6 +181,14 @@ li{
     display: inline-block;
     border: 1px solid black;
     padding: 5px;
+    margin-right: 8px;
+    margin-left: 8px;
+    font-size: small;
+}
+
+a{
+    text-decoration: none;
+    color: white;
 }
 
 #login{
@@ -68,22 +201,68 @@ li{
     padding: 10px;
 }
 
+#login a{
+    color: black;
+    background-color: white;
+    padding: 5px;
+    border-radius: 20px;
+    font-size: small;
+}
+
 .header-bottom{
-    width: 100%;
+    margin: 0 auto;
     height: 75%;
     border: 3px dashed blue;
-    margin-top: 5px;
     position: relative;
+}
+
+.container{
+    border: 4px solid yellow;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
 }
 
 #h1{
     border: 2px double green;
+    width: 100%;
+    text-align: center;
+    color: white;
+    padding: 5px;
+    padding-bottom: 30px;
 }
 
 #p{
     border: 2px double green;
+    width: 100%;
+    text-align: center;
+    color: white;
+    padding: 5px;
 }
 
 #a{
     border: 2px double green;
+    width: 100%;
+    height: 75px;
 }
+
+#mac{
+    float: left;
+    margin-top: 15px;
+    margin-left: 100px;
+    color: black;
+    background-color: white;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+#brows{
+    float: right;
+    margin-top: 15px;
+    margin-right: 100px;
+    background-color: black;
+    padding: 8px;
+    border-radius: 10px;
+}
+*/
