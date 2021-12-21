@@ -208,6 +208,56 @@ a{
     padding: 15px;
     font-size: 16px;
 }
+
+.four-section{
+    width: 100%;
+    height: 120vh;
+}
+
+.four-text, .four-pic, .four-nav{
+    height: 50px;
+    width: 50px;
+}
+
+.four-text, .four-nav{
+    height: 20%;
+    width: 100%;
+}
+
+.four-text{
+    padding: 15px;
+}
+
+.four-pic{
+    height: 60%;
+    width: 100%;
+}
+
+.four-text > *{
+    margin: 0 auto;
+    width: 50%;
+    padding: 5px;
+    text-align: center;
+}
+
+.four-text h2{
+    font-size: 30px;
+}
+
+.four-text p{
+    font-size: 13px;
+}
+
+.quattro-pic {
+    margin: 0 auto;
+    height: 400px;
+    width: 65%;
+    height: 90%;
+    padding-right: 5%;
+    padding-left: 5%;
+    text-align: center;
+    clear: both;
+}
 /*Debug
 header{
     width: 100%;
@@ -410,4 +460,151 @@ a{
 #explain{
     padding: 15px;
     font-size: 16px;
-}*/
+}
+
+.four-section{
+    width: 100%;
+    height: 120vh;
+    border: 5px double red;
+}
+
+.four-text, .four-pic, .four-nav{
+    border: 3px solid blue;
+    height: 50px;
+    width: 50px;
+}
+
+.four-text, .four-nav{
+    border: 3px solid blue;
+    height: 20%;
+    width: 100%;
+}
+
+.four-text{
+    padding: 15px;
+}
+
+.four-pic{
+    border: 3px solid blue;
+    height: 60%;
+    width: 100%;
+}
+
+.four-text > *{
+    margin: 0 auto;
+    border: 1px solid green;
+    width: 50%;
+    padding: 5px;
+    text-align: center;
+}
+
+.four-text h2{
+    font-size: 30px;
+}
+
+.four-text p{
+    font-size: 13px;
+}
+
+.quattro-pic {
+    margin: 0 auto;
+    border: 2px dashed yellow;
+    height: 400px;
+    width: 65%;
+    height: 90%;
+    padding-right: 5%;
+    padding-left: 5%;
+    text-align: center;
+    clear: both;
+}
+*/
+
+.mac-advise{
+    margin: 0 auto;
+    width: 40%;
+    height: 40vh;
+    border: 4px solid red;
+    position: relative;
+}
+
+.mac-advise > *{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.main-bottom{
+    width: 75%;
+    height: 200px;
+    border: 3px double green;
+    position: relative;
+}
+
+.main-bottom h3{
+    border: 1px dashed black;
+    width: 100%;
+    height: 30%;
+    text-align: center;
+    padding: 15px;
+    font-size: larger;
+}
+
+.main-bottom a{
+    border: 1px dashed black;
+    width: 50%;
+    height: 20%;
+    text-align: center;
+    display: block;
+    padding: 10px;
+    color: white;
+    background-color: rgba(37, 94, 233, 0.8);
+}   
+
+#download-section{
+    background-color: ##F6F6F6;
+    text-align: center;
+
+}
+
+.module-cta{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% -50%);
+    width: 100%;
+}
+
+.module-cta .cta-title{
+    margin: 0 auto;
+    border: 1px solid black;
+    width: 60%;
+    height: 50px;
+    background-image: url("img/stars.svg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.button-lilla{
+    border: 1px solid blue;
+}
+
+.col-2{
+    width: calc( 100% / 12) * 2);
+}
+
+.col-4{
+    width: 33.33%;
+}
+.container-2{
+    padding-top: 100px;
+    border: 1px solid blue
+}
+
+.clearfix::after{
+    display: block;
+    clear: both;
+    content: "";
+}
